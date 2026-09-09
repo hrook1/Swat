@@ -1,0 +1,279 @@
+{
+  "model": "malecns-v1.0-retreat-1",
+  "generated": "2026-09-08T21:16:39.810Z",
+  "description": "Model responses to synthetic stimuli, not biological measurements. Node host timing is not a mobile browser benchmark.",
+  "runs": [
+    {
+      "gain": 0.19,
+      "stimulus": 0.1,
+      "onset": null,
+      "sustained": {
+        "t": 600,
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 0
+      },
+      "after1sQuiet": {
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 0
+      },
+      "wallMs": 135.23577600000004
+    },
+    {
+      "gain": 0.19,
+      "stimulus": 0.25,
+      "onset": null,
+      "sustained": {
+        "t": 600,
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 1.8387387015722894
+      },
+      "after1sQuiet": {
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 1.0725767614686071e-7
+      },
+      "wallMs": 145.48734400000006
+    },
+    {
+      "gain": 0.19,
+      "stimulus": 0.5,
+      "onset": 471,
+      "sustained": {
+        "t": 600,
+        "retreat": 0.053321252763271335,
+        "turn": 0.05022000925881522,
+        "meanHz": 6.321326908040556
+      },
+      "after1sQuiet": {
+        "retreat": 1.9870986420755798e-7,
+        "turn": 1.8715258452825115e-7,
+        "meanHz": 3.9814114904808244e-7
+      },
+      "wallMs": 151.30147499999998
+    },
+    {
+      "gain": 0.19,
+      "stimulus": 0.8,
+      "onset": 32,
+      "sustained": {
+        "t": 600,
+        "retreat": 1,
+        "turn": 0.4922647748674665,
+        "meanHz": 22.51807772399588
+      },
+      "after1sQuiet": {
+        "retreat": 0.000014336851745611056,
+        "turn": 0.0000018147069827786514,
+        "meanHz": 0.0000017535818401195564
+      },
+      "wallMs": 183.64239599999985
+    },
+    {
+      "gain": 0.23,
+      "stimulus": 0.1,
+      "onset": null,
+      "sustained": {
+        "t": 600,
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 0
+      },
+      "after1sQuiet": {
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 0
+      },
+      "wallMs": 132.239687
+    },
+    {
+      "gain": 0.23,
+      "stimulus": 0.25,
+      "onset": null,
+      "sustained": {
+        "t": 600,
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 1.3153324352483085
+      },
+      "after1sQuiet": {
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 7.599659960121375e-8
+      },
+      "wallMs": 134.70524999999998
+    },
+    {
+      "gain": 0.23,
+      "stimulus": 0.5,
+      "onset": 398,
+      "sustained": {
+        "t": 600,
+        "retreat": 0.024869279935956,
+        "turn": -0.0010612615517207554,
+        "meanHz": 5.033363603557015
+      },
+      "after1sQuiet": {
+        "retreat": 9.26792012023725e-8,
+        "turn": -3.954957199831759e-9,
+        "meanHz": 3.0194969012595863e-7
+      },
+      "wallMs": 139.56964500000004
+    },
+    {
+      "gain": 0.23,
+      "stimulus": 0.8,
+      "onset": 25,
+      "sustained": {
+        "t": 600,
+        "retreat": 1,
+        "turn": 0.17054454258510043,
+        "meanHz": 22.117275488732588
+      },
+      "after1sQuiet": {
+        "retreat": 0.000015163044008659198,
+        "turn": 0.0000014434418907122954,
+        "meanHz": 0.0000020235665315224277
+      },
+      "wallMs": 184.85878000000002
+    },
+    {
+      "gain": 0.275,
+      "stimulus": 0.1,
+      "onset": null,
+      "sustained": {
+        "t": 600,
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 0
+      },
+      "after1sQuiet": {
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 0
+      },
+      "wallMs": 125.48376299999995
+    },
+    {
+      "gain": 0.275,
+      "stimulus": 0.25,
+      "onset": 49,
+      "sustained": {
+        "t": 600,
+        "retreat": 0.00015649872948415578,
+        "turn": 0.00035771138167807037,
+        "meanHz": 1.7554291328002096
+      },
+      "after1sQuiet": {
+        "retreat": 5.832162752739123e-10,
+        "turn": 1.3330657720546567e-9,
+        "meanHz": 1.0499347081597817e-7
+      },
+      "wallMs": 136.23934499999996
+    },
+    {
+      "gain": 0.275,
+      "stimulus": 0.5,
+      "onset": 28,
+      "sustained": {
+        "t": 600,
+        "retreat": 0.05225862711668015,
+        "turn": 0.11022758994783674,
+        "meanHz": 4.133090616253466
+      },
+      "after1sQuiet": {
+        "retreat": 1.9474970045507689e-7,
+        "turn": 4.1077982392120505e-7,
+        "meanHz": 2.526081762520432e-7
+      },
+      "wallMs": 140.95661000000018
+    },
+    {
+      "gain": 0.275,
+      "stimulus": 0.8,
+      "onset": 22,
+      "sustained": {
+        "t": 600,
+        "retreat": 1,
+        "turn": 0.17818690708705356,
+        "meanHz": 20.810384625380053
+      },
+      "after1sQuiet": {
+        "retreat": 0.000027390649847802706,
+        "turn": 0.0000013692545638020549,
+        "meanHz": 0.000006075719972875943
+      },
+      "wallMs": 191.5654169999998
+    },
+    {
+      "gain": 0.32,
+      "stimulus": 0.1,
+      "onset": null,
+      "sustained": {
+        "t": 600,
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 0
+      },
+      "after1sQuiet": {
+        "retreat": 0,
+        "turn": 0,
+        "meanHz": 0
+      },
+      "wallMs": 126.16160300000001
+    },
+    {
+      "gain": 0.32,
+      "stimulus": 0.25,
+      "onset": 44,
+      "sustained": {
+        "t": 600,
+        "retreat": 1,
+        "turn": -0.18454835074288503,
+        "meanHz": 15.101345682119963
+      },
+      "after1sQuiet": {
+        "retreat": 0.010042175883427262,
+        "turn": 0.008097584864922932,
+        "meanHz": 6.897957606410276
+      },
+      "wallMs": 216.8896950000003
+    },
+    {
+      "gain": 0.32,
+      "stimulus": 0.5,
+      "onset": 23,
+      "sustained": {
+        "t": 600,
+        "retreat": 1,
+        "turn": 0.30748138427734373,
+        "meanHz": 21.61378982175768
+      },
+      "after1sQuiet": {
+        "retreat": 0.000007454668138962006,
+        "turn": -2.19453067984432e-7,
+        "meanHz": 0.000004999032687838235
+      },
+      "wallMs": 182.63763199999994
+    },
+    {
+      "gain": 0.32,
+      "stimulus": 0.8,
+      "onset": 19,
+      "sustained": {
+        "t": 600,
+        "retreat": 1,
+        "turn": -0.47044263567243305,
+        "meanHz": 17.88957192380966
+      },
+      "after1sQuiet": {
+        "retreat": 0.43040485084056856,
+        "turn": -0.1634871687207903,
+        "meanHz": 3.78397248213865
+      },
+      "wallMs": 234.31190400000014
+    }
+  ]
+}

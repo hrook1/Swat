@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Swat. Catch it. If you can. A playful cartoon fly, 6,000 neurons and one very persistent cursor.">
+  <defs>
+    <filter id="tray-shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="13" stdDeviation="10" flood-color="#253523" flood-opacity=".09"/></filter>
+    <filter id="fly-shadow" x="-50%" y="-50%" width="200%" height="220%"><feGaussianBlur stdDeviation="4"/></filter>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#55784c"/><stop offset=".5" stop-color="#345235"/><stop offset="1" stop-color="#223a29"/></linearGradient>
+    <linearGradient id="thorax" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#4c6941"/><stop offset="1" stop-color="#213728"/></linearGradient>
+    <linearGradient id="eye" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#ffa67e"/><stop offset=".5" stop-color="#f37654"/><stop offset="1" stop-color="#dc5d43"/></linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee9ff" stop-opacity=".95"/><stop offset="1" stop-color="#aaa0d7" stop-opacity=".78"/></linearGradient>
+    <pattern id="crosses" width="43" height="43" patternUnits="userSpaceOnUse"><path d="M19 21.5h5m-2.5-2.5v5" stroke="#92aa81" stroke-width=".8" opacity=".42"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#F7F6F2"/>
+  <path d="M64 119H1136" stroke="#dedfd5"/>
+  <g transform="translate(63 38)">
+    <g transform="rotate(-10 23 23)">
+      <rect width="46" height="46" rx="13" fill="#d2e45e"/>
+      <ellipse cx="16" cy="16" rx="6.4" ry="10.8" transform="rotate(-35 16 16)" fill="#bbb0e8" stroke="#253523" stroke-width="1.4"/>
+      <ellipse cx="30" cy="16" rx="6.4" ry="10.8" transform="rotate(35 30 16)" fill="#bbb0e8" stroke="#253523" stroke-width="1.4"/>
+      <ellipse cx="23" cy="28" rx="8" ry="11.5" fill="#253523"/>
+      <circle cx="18" cy="21" r="5" fill="#f37654"/><circle cx="28" cy="21" r="5" fill="#f37654"/>
+    </g>
+    <text x="59" y="36" font-family="Arial Rounded MT Bold,Arial,sans-serif" font-size="43" font-weight="800" letter-spacing="-2.5" fill="#253523">Swat<tspan fill="#849c4d">.</tspan></text>
+  </g>
+  <g fill="#68795a" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">
+    <text x="1134" y="68" text-anchor="end">REAL WIRING. ARCADE FLYING.</text>
+  </g>
+  <g font-family="Arial Rounded MT Bold,Arial,sans-serif">
+    <text x="62" y="253" font-size="85" font-weight="800" letter-spacing="-5" fill="#253523">Catch it.</text>
+    <text x="62" y="343" font-size="85" font-weight="800" letter-spacing="-5" fill="#839951">If you can.</text>
+  </g>
+  <g transform="translate(591 186) rotate(12)" stroke="#bfcb7f" stroke-width="3.5" stroke-linecap="round"><path d="M0-17v10m0 14v10m-17-17h10m14 0h10m-29-12 7 7m10 10 7 7m-24 0 7-7m10-10 7-7"/></g>
+  <text x="67" y="395" font-family="Arial,sans-serif" font-size="20" fill="#687562">6,000 neurons. One very persistent cursor.</text>
+  <g transform="translate(66 440)">
+    <rect width="225" height="55" rx="12" fill="#243b2d"/>
+    <path d="m21 19 13 8.5L21 36Z" fill="#F7F6F2" stroke="#F7F6F2" stroke-linejoin="round" stroke-width="2"/>
+    <text x="49" y="34" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#F7F6F2">Catch this fly</text>
+    <path d="M190 34l13-13m-12 0h12v12" fill="none" stroke="#F7F6F2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(881 340) rotate(-6)">
+    <rect x="-207" y="-186" width="434" height="363" rx="52" fill="#b9bcc0" opacity=".6" transform="translate(0 8)"/>
+    <rect x="-207" y="-186" width="434" height="363" rx="52" fill="#eef0e1" filter="url(#tray-shadow)"/>
+    <rect x="-194" y="-174" width="408" height="335" rx="41" fill="#E4F2FC"/>
+    <rect x="-194" y="-174" width="408" height="335" rx="41" fill="url(#crosses)"/>
+    <rect x="-177" y="-157" width="374" height="301" rx="28" fill="none" stroke="#95ae83" stroke-width=".8" stroke-dasharray="2 7" opacity=".5"/>
+    <g stroke="#95a986" stroke-width="1" opacity=".55"><path d="M-115-181v7m43-7v7m43-7v7m43-7v7m43-7v7m43-7v7m43-7v7m-258 342v7m43-7v7m43-7v7m43-7v7m43-7v7m43-7v7m43-7v7"/></g>
+    <text x="-157" y="-127" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#728768">D. MELANOGASTER</text>
+    <text x="-157" y="-111" font-family="Arial,sans-serif" font-size="7.5" letter-spacing=".7" fill="#829674">ONE VERY SMALL SUBJECT</text>
+    <g transform="translate(17 16) rotate(-18)">
+      <ellipse cx="11" cy="35" rx="105" ry="40" fill="#405b3e" opacity=".14" filter="url(#fly-shadow)" transform="rotate(9)"/>
+      <g fill="none" stroke="#2b432e" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M26-14 49-41 78-49m-65 40L7-47-10-63m-24 47-24-30-35-9"/>
+        <path d="M28 11 54 43 79 54M4 18l-7 43 9 15m-37-57-35 33-21 1"/>
+      </g>
+      <g fill="#253b2b"><ellipse cx="80" cy="54" rx="6" ry="3" transform="rotate(24 80 54)"/><ellipse cx="7" cy="77" rx="6" ry="3"/><ellipse cx="-87" cy="53" rx="6" ry="3"/><ellipse cx="80" cy="-49" rx="6" ry="3" transform="rotate(-15 80 -49)"/><ellipse cx="-10" cy="-63" rx="5" ry="3"/><ellipse cx="-93" cy="-55" rx="6" ry="3"/></g>
+      <ellipse cx="-40" cy="0" rx="52" ry="30" fill="url(#body)"/>
+      <g fill="none" stroke="#233f2b" stroke-width="2.6" opacity=".6"><path d="M-66-24c-11 12-11 31 1 47m18-52c-13 17-12 43 1 56"/></g>
+      <ellipse cx="3" cy="-1" rx="36" ry="33" fill="url(#thorax)"/>
+      <ellipse cx="0" cy="-15" rx="22" ry="15" fill="#68844f" opacity=".8"/>
+      <ellipse cx="43" cy="-1" rx="25" ry="26" fill="#293e2e"/>
+      <g fill="none" stroke="#2e432e" stroke-width="3" stroke-linecap="round"><path d="m57-12 19-18 11-2m-27 36 22 5 8 10"/></g>
+      <circle cx="88" cy="-33" r="4.2" fill="#2c432e"/><circle cx="90" cy="20" r="4.2" fill="#2c432e"/>
+      <ellipse cx="50" cy="-19" rx="19" ry="23" transform="rotate(10 50 -19)" fill="url(#eye)"/>
+      <ellipse cx="52" cy="19" rx="19" ry="23" transform="rotate(-8 52 19)" fill="url(#eye)"/>
+      <ellipse cx="54" cy="-29" rx="6" ry="7" fill="#ffe4c6" opacity=".93"/><ellipse cx="59" cy="10" rx="6" ry="7" fill="#ffe4c6" opacity=".93"/>
+      <circle cx="58" cy="-18" r="2" fill="#ffe4c6"/><circle cx="62" cy="22" r="2" fill="#ffe4c6"/>
+      <g fill="#d55e44" opacity=".65"><circle cx="42" cy="-16" r="2"/><circle cx="47" cy="-11" r="2"/><circle cx="53" cy="-8" r="2"/><circle cx="41" cy="25" r="2"/><circle cx="46" cy="30" r="2"/><circle cx="52" cy="33" r="2"/></g>
+      <path d="M-1-17C-26-65-126-85-131-58c-6 32 80 70 128 63Z" fill="url(#wing)" stroke="#a49aca" stroke-width="1.2"/>
+      <path d="M0 1C-45-8-134 18-129 49c6 31 105-1 129-30Z" fill="url(#wing)" stroke="#a49aca" stroke-width="1.2"/>
+      <g fill="none" stroke="#9d92c4" stroke-width="1.2" opacity=".7"><path d="M-5-13-113-56m94 50-101-28m52-5-5-24m59 69-102 38m101-28-107 18m75-4-12 29"/></g>
+    </g>
+    <g transform="translate(101 126)" stroke="#788f6b" fill="none" stroke-width="1"><path d="M0-5v5h21v-5"/></g>
+    <text x="129" y="127" font-family="Arial,sans-serif" font-size="8" letter-spacing=".5" fill="#788f6b">1 TINY GUY</text>
+  </g>
+  <g transform="translate(1104 174) rotate(11)">
+    <circle r="46" fill="#dceaa0"/>
+    <circle r="40" fill="none" stroke="#9dab6b" stroke-dasharray="2 3"/>
+    <text y="-6" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#596b39">100%</text>
+    <text y="15" text-anchor="middle" font-family="Arial Rounded MT Bold,Arial,sans-serif" font-size="22" font-weight="800" fill="#465a2d">TINY</text>
+  </g>
+  <path d="M64 548H1136" stroke="#dedfd5"/>
+  <text x="66" y="589" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#76846a">CATCH THE FLY. WATCH ITS NEURONS FIRE.</text>
+  <text x="1134" y="588" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#8a927f">Built with the MaleCNS connectome.</text>
+</svg>

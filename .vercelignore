@@ -1,0 +1,8 @@
+data/raw
+node_modules
+dist
+.venv
+.git
+artifacts
+*.tsbuildinfo
+.env*

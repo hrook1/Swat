@@ -1,0 +1,699 @@
+{
+  "description": "Synthetic model checks, not biological measurements. Node host timing includes audit overhead and is not browser performance. Decay acceptance is after 2 seconds; the Standard left stimulus had a small 1-second residual (0.17Hz mean, retreat 0.013), then no further spikes in the second quiet second. No dynamics or weights were changed.",
+  "modelGainMvPerContact": 0.275,
+  "allValid": true,
+  "runs": [
+    {
+      "tier": "compact",
+      "measurements": [
+        {
+          "name": "quiet",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 0,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 79.58311899999998
+        },
+        {
+          "name": "gentle",
+          "onsetMs": 43,
+          "maxRetreat": 1,
+          "maxMeanHz": 18.58671741475101,
+          "response": {
+            "retreat": 1,
+            "turn": 0.002072361537388393,
+            "meanHz": 18.45831307488098
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.000020552712521748616,
+            "turn": -9.303530012922628e-7,
+            "meanHz": 0.0000013314100890977007
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 7.659276407556703e-11,
+            "turn": -3.4670774188124858e-12,
+            "meanHz": 7.692552083814393e-14
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 108.36373499999996
+        },
+        {
+          "name": "bilateral",
+          "onsetMs": 19,
+          "maxRetreat": 1,
+          "maxMeanHz": 81.37806315312928,
+          "response": {
+            "retreat": 1,
+            "turn": -0.059367588588169644,
+            "meanHz": 80.55249242296406
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.00004618594321073033,
+            "turn": 0.0000018151061210249151,
+            "meanHz": 0.000005684884947463844
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 1.7211895797508703e-10,
+            "turn": 6.764328779646738e-12,
+            "meanHz": 3.284583882301537e-13
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 114.13916900000004
+        },
+        {
+          "name": "left",
+          "onsetMs": 24,
+          "maxRetreat": 1,
+          "maxMeanHz": 44.38019798063803,
+          "response": {
+            "retreat": 1,
+            "turn": 0.12254268101283482,
+            "meanHz": 43.58778973721586
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.0000390869019611273,
+            "turn": 0.0000036111417492585523,
+            "meanHz": 0.0000033262964118059697
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 1.4566340356125807e-10,
+            "turn": 1.3457349520454695e-11,
+            "meanHz": 1.9218505792509662e-13
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 102.28452499999997
+        },
+        {
+          "name": "right",
+          "onsetMs": 21,
+          "maxRetreat": 1,
+          "maxMeanHz": 44.96038357162573,
+          "response": {
+            "retreat": 1,
+            "turn": 0.4719791957310268,
+            "meanHz": 44.25104561015076
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.00003425322720431723,
+            "turn": 9.269436954387596e-7,
+            "meanHz": 0.000003112297582976333
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 1.2764986012658853e-10,
+            "turn": 3.4544494249238208e-12,
+            "meanHz": 1.7982073093288668e-13
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 96.84518100000003
+        },
+        {
+          "name": "vision-cut",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 0,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 63.355466999999976
+        },
+        {
+          "name": "motor-cut",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 79.24507166731526,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 78.30565616873535
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0.000005540693785159436
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 3.201273856516527e-13
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 108.51773400000002
+        }
+      ]
+    },
+    {
+      "tier": "balanced",
+      "measurements": [
+        {
+          "name": "quiet",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 0,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 141.87462600000003
+        },
+        {
+          "name": "gentle",
+          "onsetMs": 44,
+          "maxRetreat": 0.22814178466796875,
+          "maxMeanHz": 4.195276406520699,
+          "response": {
+            "retreat": 0.000224241433897987,
+            "turn": 0.00016369964661342758,
+            "meanHz": 2.7434829363565694
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 8.356697556166637e-10,
+            "turn": 6.100515901964952e-10,
+            "meanHz": 1.6708410837561603e-7
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 3.114249953566333e-15,
+            "turn": 2.2734495957426364e-15,
+            "meanHz": 9.653699185960837e-15
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 141.64469899999995
+        },
+        {
+          "name": "bilateral",
+          "onsetMs": 20,
+          "maxRetreat": 1,
+          "maxMeanHz": 28.116939500607632,
+          "response": {
+            "retreat": 1,
+            "turn": -0.3636622837611607,
+            "meanHz": 26.77447674252857
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.000017418466450180857,
+            "turn": -0.000001436082779296807,
+            "meanHz": 0.000001670248912250023
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 6.491254894713804e-11,
+            "turn": -5.351671486916335e-12,
+            "meanHz": 9.650278727325948e-14
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 167.6033910000001
+        },
+        {
+          "name": "left",
+          "onsetMs": 28,
+          "maxRetreat": 1,
+          "maxMeanHz": 22.321590703996982,
+          "response": {
+            "retreat": 1,
+            "turn": -0.28900484357561385,
+            "meanHz": 21.838923456425263
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.000016630674508633092,
+            "turn": -0.0000018085951783827374,
+            "meanHz": 0.0000015026432328026244
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 6.197672930419174e-11,
+            "turn": -6.740062476394217e-12,
+            "meanHz": 8.681894792177765e-14
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 163.55810999999994
+        },
+        {
+          "name": "right",
+          "onsetMs": 24,
+          "maxRetreat": 1,
+          "maxMeanHz": 24.438882963219346,
+          "response": {
+            "retreat": 1,
+            "turn": 0.08922685895647321,
+            "meanHz": 22.399886327816162
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.000024294152899528855,
+            "turn": 2.875208987721375e-8,
+            "meanHz": 0.00000194039927723513
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 9.053584687501725e-11,
+            "turn": 1.0715555427103547e-13,
+            "meanHz": 1.1211139580932947e-13
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 150.24653999999987
+        },
+        {
+          "name": "vision-cut",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 0,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 106.08253500000001
+        },
+        {
+          "name": "motor-cut",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 28.156184955173266,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 25.27741951951925
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0.000002728368203396237
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 1.5763826115307158e-13
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 157.8065650000001
+        }
+      ]
+    },
+    {
+      "tier": "standard",
+      "measurements": [
+        {
+          "name": "quiet",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 0,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 222.18447000000015
+        },
+        {
+          "name": "gentle",
+          "onsetMs": 45,
+          "maxRetreat": 0.22627220749855043,
+          "maxMeanHz": 3.171993213016901,
+          "response": {
+            "retreat": 0.00022803399479016663,
+            "turn": 0.00016353713082415717,
+            "meanHz": 1.6649704338488742
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 8.498033166048913e-10,
+            "turn": 6.094459540203648e-10,
+            "meanHz": 9.727732399186219e-8
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 3.166920833918858e-15,
+            "turn": 2.271192519148559e-15,
+            "meanHz": 5.620438832531113e-15
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 221.29603399999996
+        },
+        {
+          "name": "bilateral",
+          "onsetMs": 20,
+          "maxRetreat": 1,
+          "maxMeanHz": 22.144916737741738,
+          "response": {
+            "retreat": 1,
+            "turn": 0.1570253644670759,
+            "meanHz": 21.87411000450523
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.00003350661427248269,
+            "turn": -0.0000038349502054708345,
+            "meanHz": 0.000019159625248804768
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 1.2486752881679663e-10,
+            "turn": -1.4291396637539881e-11,
+            "meanHz": 1.1069949615623574e-12
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 274.4506409999999
+        },
+        {
+          "name": "left",
+          "onsetMs": 30,
+          "maxRetreat": 1,
+          "maxMeanHz": 22.09941403487977,
+          "response": {
+            "retreat": 1,
+            "turn": -0.39632399422781805,
+            "meanHz": 16.83001468151363
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.012577011436223983,
+            "turn": 0.007191624811717442,
+            "meanHz": 0.17093432542313944
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 4.687018062554671e-8,
+            "turn": 2.68007186475318e-8,
+            "meanHz": 9.876155112032148e-9
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 285.0095459999998
+        },
+        {
+          "name": "right",
+          "onsetMs": 22,
+          "maxRetreat": 1,
+          "maxMeanHz": 20.750321309886637,
+          "response": {
+            "retreat": 1,
+            "turn": 0.6955802917480469,
+            "meanHz": 19.09368994641338
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.000020141374625382015,
+            "turn": 0.0000047387181049478905,
+            "meanHz": 0.000004525956788822923
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 7.505991939105172e-11,
+            "turn": 1.7659524636266203e-11,
+            "meanHz": 2.61498400332e-13
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 262.4164939999996
+        },
+        {
+          "name": "vision-cut",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 0,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 184.32025399999975
+        },
+        {
+          "name": "motor-cut",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 29.053502618575628,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 28.957275433041673
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0.017752957334256633
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 1.0257212475839176e-9
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 305.2514490000003
+        }
+      ]
+    },
+    {
+      "tier": "expanded",
+      "measurements": [
+        {
+          "name": "quiet",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 0,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 418.55850699999974
+        },
+        {
+          "name": "gentle",
+          "onsetMs": 45,
+          "maxRetreat": 1,
+          "maxMeanHz": 8.148174414992333,
+          "response": {
+            "retreat": 0.44190275073051455,
+            "turn": 0.30103178024291993,
+            "meanHz": 5.589972170541121
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.0000016468190096929901,
+            "turn": 0.0000011218413419555874,
+            "meanHz": 3.962694002660946e-7
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 6.13712691777124e-12,
+            "turn": 4.180721641893521e-12,
+            "meanHz": 2.289544936669004e-14
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 473.1720660000001
+        },
+        {
+          "name": "bilateral",
+          "onsetMs": 21,
+          "maxRetreat": 1,
+          "maxMeanHz": 13.505563019335561,
+          "response": {
+            "retreat": 0.17420219890773297,
+            "turn": 0.2572310847895486,
+            "meanHz": 13.364586844276957
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.00001495740198151907,
+            "turn": 0.000007612927168208573,
+            "meanHz": 0.000010160024120073581
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 5.574107009298501e-11,
+            "turn": 2.8370804118692053e-11,
+            "meanHz": 5.870206258603198e-13
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 533.0912130000006
+        },
+        {
+          "name": "left",
+          "onsetMs": 27,
+          "maxRetreat": 1,
+          "maxMeanHz": 10.34109551743418,
+          "response": {
+            "retreat": 0.7082854270935058,
+            "turn": -0.04242924281529018,
+            "meanHz": 10.048293404268577
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0.0000026395342047180746,
+            "turn": -1.5812183846719562e-7,
+            "meanHz": 0.0000010425367603856534
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 9.836624396963867e-12,
+            "turn": -5.892710922391789e-13,
+            "meanHz": 6.023515496796162e-14
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 517.8933310000002
+        },
+        {
+          "name": "right",
+          "onsetMs": 24,
+          "maxRetreat": 1,
+          "maxMeanHz": 13.035107902341833,
+          "response": {
+            "retreat": 0.19726758203469216,
+            "turn": 0.40931928721921784,
+            "meanHz": 12.534906620517063
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 7.351481249529001e-7,
+            "turn": 0.0000015253914970766605,
+            "meanHz": 0.0000016284289741968193
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 2.7396417748878734e-12,
+            "turn": 5.684604439576611e-12,
+            "meanHz": 9.408653204244932e-14
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 548.9598899999992
+        },
+        {
+          "name": "vision-cut",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 0,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 410.52324899999985
+        },
+        {
+          "name": "motor-cut",
+          "onsetMs": null,
+          "maxRetreat": 0,
+          "maxMeanHz": 12.97530968093827,
+          "response": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 12.855340842652154
+          },
+          "afterOneSecondQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 0.0000014845220496923353
+          },
+          "afterTwoSecondsQuiet": {
+            "retreat": 0,
+            "turn": 0,
+            "meanHz": 8.577194967636622e-14
+          },
+          "finite": true,
+          "valid": true,
+          "wallMs": 527.3763179999987
+        }
+      ]
+    }
+  ]
+}

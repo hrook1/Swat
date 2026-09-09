@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem with Swat.
+title: '[Bug]: '
+body:
+  - type: markdown
+    attributes:
+      value: Please do not post credentials, personal information or security vulnerabilities here. See SECURITY.md for security reporting.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the result you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the page URL and seed parameter if present.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Browser version, operating system and input method
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, recording or console errors
+      description: Remove private information before attaching anything.

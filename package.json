@@ -1,0 +1,45 @@
+{
+  "name": "swat",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A browser game powered by a fruit-fly-inspired neural circuit.",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint src scripts/*.mjs vite.config.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "npm run test:unit && npm run test:security",
+    "test:unit": "vitest run",
+    "test:security": "node --test scripts/check-public-release.test.mjs",
+    "test:watch": "vitest",
+    "check:security": "node scripts/check-public-release.mjs",
+    "verify": "npm run typecheck && npm run lint && npm run format:check && npm run check:security && npm test && npm run build"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "5.3.0",
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "lucide-react": "1.43.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.12",
+    "@types/node": "26.5.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@types/three": "0.185.4",
+    "@vitejs/plugin-react": "6.1.1",
+    "prettier": "3.9.6",
+    "typescript": "7.0.2",
+    "vite": "8.2.2",
+    "vitest": "5.0.0"
+  }
+}

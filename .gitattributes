@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
+
+# Generated connectome fixtures are reviewed through their manifests and tests.
+public/data/*.json linguist-generated=true

@@ -1,0 +1,50 @@
+{
+  "defaultId": "standard",
+  "description": "Nested real-connectome selections. Circuit size changes anatomical coverage and compute cost; it is not an intelligence score.",
+  "tiers": [
+    {
+      "id": "compact",
+      "label": "Compact",
+      "path": "/data/circuit-compact.json",
+      "description": "Path core only. Lightest workload; the most surrounding anatomy is omitted.",
+      "neuronCount": 1088,
+      "edgeCount": 71681,
+      "contactCount": 504277,
+      "downloadBytes": 1176728,
+      "gzipBytes": 275306
+    },
+    {
+      "id": "balanced",
+      "label": "Balanced",
+      "path": "/data/circuit-balanced.json",
+      "description": "Path core plus 700 strongly connected neighboring neurons.",
+      "neuronCount": 1788,
+      "edgeCount": 215329,
+      "contactCount": 2450738,
+      "downloadBytes": 3504454,
+      "gzipBytes": 809803
+    },
+    {
+      "id": "standard",
+      "label": "Standard",
+      "path": "/data/circuit.json",
+      "description": "Path core plus 1,800 neighbors. The original calibrated circuit.",
+      "neuronCount": 2888,
+      "edgeCount": 470170,
+      "contactCount": 4895210,
+      "downloadBytes": 7707666,
+      "gzipBytes": 1758591
+    },
+    {
+      "id": "expanded",
+      "label": "Expanded",
+      "path": "/data/circuit-expanded.json",
+      "description": "Path core plus 4,912 neighbors. More anatomy and a heavier workload, not guaranteed better play.",
+      "neuronCount": 6000,
+      "edgeCount": 1275994,
+      "contactCount": 10659685,
+      "downloadBytes": 21167933,
+      "gzipBytes": 4815518
+    }
+  ]
+}

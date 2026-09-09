@@ -1,0 +1,43 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# Local credentials, hosting configuration and environment files
+.env*
+.vercel/
+.npmrc
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Raw research inputs and local analysis environments
+data/raw/
+.venv/
+
+# Local recordings, review artifacts and editor/OS state
+artifacts/
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Private working notes: keep locally, not in the public source release
+IMPLEMENTATION_PLAN.md
+docs/BUILD_LOG.md
+docs/EVASION_LAB_PROTOCOL.md
+docs/FLIGHT_REVIEW_LOOPS.md
+docs/PALETTE_REVIEW.md
+docs/SIDE_VIEW_REVIEW.md
+docs/SPLAT_REVIEW.md
+docs/SQUISH_REVIEW.md
+docs/SWAT_MECHANICS_AUDIT.md
+docs/SWAT_REVIEW_LOOPS.md
+docs/SWAT_WELCOME_REVIEW.md
+docs/TOOLBAR_CLEANUP.md
+docs/VISUAL_DIRECTION.md
